@@ -7,7 +7,19 @@ import Login from "./Pages/Shared/Login/Login";
 import Register from "./Pages/Shared/Register/Register";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/programs" element={<Programs />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
