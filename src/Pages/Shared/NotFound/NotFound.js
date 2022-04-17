@@ -1,10 +1,26 @@
 import React from "react";
-import './NotFound.css'
+import { Link } from "react-router-dom";
+import "./NotFound.css";
+import notFound from '../../../Images/notFound.gif'
 
 const NotFound = () => {
   return (
-    <div>
-      <h3>Page Not Found</h3>
+    <div className="error">
+      <div className="error-image">
+        <img src={notFound} alt="" />
+      </div>
+      <div className="error-message">
+        <h2>404</h2>
+        <h3>PAGE NOT FOUND</h3>
+        <p>
+          The page you are looking for might have been removed. <br /> Had it's name
+          changed or is temporary unavailable.
+        </p>
+
+        <Link className="backBtn" to="/">
+          HOME
+        </Link>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600&display=swap');
+
+.error {
+     text-align: center;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     /* margin-top: 20%; */
+}
+
+/* .error-image img{
+width: 100%;
+background-size: cover;
+} */
+.error-message {
+     margin-top: 20%;
+     padding-right: 10%;
+
+}
+
+.error-message h2 {
+     font-family: 'Teko', sans-serif;
+     font-size: 2rem;
+     color: #2C87F0;
+     font-size: 6rem;
+}
+
+.error-message h3 {
+     color: rgb(221, 35, 35);
+     font-size: 4rem;
+     font-family: 'Teko', sans-serif;
+}
+
+.error-message p {
+     color: gray;
+}
+
+.backBtn {
+     background-color: #29B965;
+     padding: .3rem .6rem;
+     color: #fff;
+     /* font-weight: 500; */
+     font-size: 1rem;
+     text-decoration: none;
+     border-radius: .1rem;
+}
+
+.backBtn:hover {
+     color: #fff;
+     background-color: salmon;
+}

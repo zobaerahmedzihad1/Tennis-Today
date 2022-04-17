@@ -16,7 +16,7 @@ const NavBar = () => {
               alt=""
               src={logo}
               width="auto"
-              height="50"
+              height="70"
               className="d-inline-block align-top"
             />
           </NavLink>
