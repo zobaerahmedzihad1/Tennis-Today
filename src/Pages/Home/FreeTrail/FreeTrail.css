@@ -1,0 +1,33 @@
+.free-trail {
+            background-image: url(../../../Images/bg.jpg);
+            height: 150px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+}
+
+.free-trail-text h2 {
+            color: #fff;
+            font-size: 2.5rem;
+            text-align: center;
+}
+
+.free-trail-text p {
+            color: #fff;
+            font-style: 1.5rem;
+}
+
+.free-trail-btn button {
+            padding: .6rem 2.4rem;
+            border-radius: 2rem;
+            border: none;
+            font-weight: 600;
+            color: #30AE6C;
+            transition: all ease .4s;
+}
+
+.free-trail-btn button:hover {
+            background: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+}
